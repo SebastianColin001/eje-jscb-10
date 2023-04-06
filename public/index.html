@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title> Ejercicio 10</title>
+<!--        <link rel="stylesheet" type="text/css" href="CSS/eje-yevm-10.css" media="screen"/>-->
+        <link rel="stylesheet" type="text/css" href="CSS/eje-jscb-10.css" media="screen"/>
+    </head>
+    <body>
+        <header>
+            <h1> Ejercicio 10 - Calculadora Básica  </h1>
+            <hr>
+            <nav>
+                <ul>
+                    <il><a href="../index.html" id="link">Inicio</a></il>
+                    <il><a href="../departamental1/index.html" id="link">Departamental 1</a></il>
+                    <il><a href="../departamental2/index.html" id="link">Departamental 2</a></il>
+                    <il><a href="../departamental3/index.html" id="link">Departamental 3</a></il>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main>
+            <div id="container">
+                <form name="calculator">
+                    <h2>Calculadora Básica</h2>
+                    <div id="entradas">
+                        <input type="text" id="ent1" placeholder="0" class="entrada">
+                        <input type="text" id="ent2" placeholder="0" class="entrada">
+                    </div>
+                    <div>
+                        <label id="resultado">Resultado: 0.0</label>
+                    </div>
+                    <div id="botones">
+                        <input type="button" value="+" class="boton" onclick="sumaNumeros()">
+                        <input type="button" value="-" class="boton" onclick="restaNumeros()">
+                        <input type="button" value="x" class="boton" onclick="multiplicaNumeros()">
+                        <input type="button" value="/" class="boton" onclick="divideNumeros()">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer id="link">Copyright &copy; 2023 Yave Vargas ft Sebastián Colin</footer>
+        <script src="js/eje-jscb-10.js"></script>
+    </body>
+</html>
+
